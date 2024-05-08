@@ -3,6 +3,6 @@ const registerUser = require("../controller/WaitlistController");
 
 const waitListRouter = express.Router();
 
-waitListRouter.get("/register-user", registerUser);
+waitListRouter.post("/waitlist-user", registerUser);
 
 module.exports = waitListRouter;
